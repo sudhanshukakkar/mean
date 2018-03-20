@@ -1,0 +1,20 @@
+.disBlock{
+    display : block;
+}
+
+.disNone{
+    display : none;
+}
+
+
+.red{
+    padding : 20px;  
+    border-radius : 35px;       
+}
+
+.yellow{
+    background : yellow;
+    padding : 20px;
+    border-radius : 35px;
+}
+

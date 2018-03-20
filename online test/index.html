@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Test</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/login.js"></script>
+    <script src="js/test.js"></script>
+</head>
+<body>
+    <div id="loginScr" class="disBlock">
+        <table border="1">
+            <tr>
+                <td>id</td>
+                <td><input id="id" type="text"></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input id="pass" type="password"></td>
+            </tr>
+            <tr>
+                <td><input value="login" type="button" id="loginBtn"></td>
+                <td id="loginReport"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="testScr" class="disNone">
+        <button value="javaScript" onclick="test(this.value)">JAVASCRIPT</button>
+        <button value="python" onclick="test(this.value)">PYTHON</button>
+
+        <table>
+            <tr id="progressBar"></tr>
+            <tbody id="questionsBody">
+                
+            </tbody>
+            <tr id="nextPrevious"></tr>
+            <tr id="finishTest"></tr>
+        </table>
+        
+    </div>
+
+    <table id="testReport" border="3">
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>
