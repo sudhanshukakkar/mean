@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin : 0px;
+    font-family : calibri; 
+    font-size : 20px;    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    background : white;
+    color: black;
+    padding : 20px;
+    font-weight: 900;
+}
+
+.login-header{
+    padding : 20px;
+    background-color: black;
+    color : white;
+}
+
+
+.imp-text{
+    font-weight: 900;
+    color :blue;
+    text-decoration: underline;
+}
+
+.left{
+    float : left;
+}
+
+.right{
+    float : right;
+}
+
+.selection{
+    padding : 30px;
+    /* height : 70vh; */
+    /* overflow-y: scroll; */
+}
+
+select{
+    display: inline-block;
+    /* margin : 20px; */
+    /* padding : 20px; */
+}
+
+.graphs{
+    background : black;
+    color : white;
+}
+
+img{
+    margin : 30px auto 30px auto;
+}
+
+.gr{
+    /* padding : 50px; */
+}
+
+
+
+.btn{
+    width : 300px;
+    color : blue;
+    background : inherit;
+    font-size : 20px;
+    border : 1px solid blue;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    margin-left : auto;
+    margin-right : auto;
+    padding : 20px;
+    display: block;
+}
+
+.btn:hover{
+    color : white;
+    background : blue;
+    border : 1px solid blue;
+}
+
+.next-pre{
+    padding : 10px;
+    display : inline-block;
+    width : 100px;
+    margin : 20px;
+}
+
+.table-container{
+    margin : 40px;
+}
+
+.footer{
+    background : black;
+    color : grey;
+    padding : 20px;
+    font-size: 12px;
+    margin-bottom : 0px;
+}
+

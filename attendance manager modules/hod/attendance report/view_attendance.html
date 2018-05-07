@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>View Attendance</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../style/custom.css">
+</head>
+<body>
+    <div class="container-fluid header">
+        <span class="text-left">DYNAMIC ATTENDANCE MANAGER</span>
+    </div>
+    <div class="text-right container-fluid login-header">
+        Logged in as <span class="imp-text">HOD name</span>
+    </div> 
+    <div class="selection container-fluid">
+        <span class="left">
+                Class <span class="imp-text">CSE 6E</span> 
+        </span><br>
+        <span class="left">
+                Teacher <span class="imp-text">Teacher Name</span> 
+        </span>
+        <span class="right">
+            Choose Subject
+            <select>
+                <option value="CN" selected="selected">CN</option>
+                <option value="TOC">TOC</option>
+                <option value="ADA">ADA</option>
+                <option value="STLD">STLD</option>
+            </select>
+        </span>
+
+
+        <div class="table-container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ROLL NO.</th>
+                    <th>NAME</th>
+                    <th>SUBJECT ATTENDANCE</th>
+                    <th>OVERALL ATTENDANCE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>00796502715</td>
+                    <td>RAHUL GUPTA</td>
+                    <td>48%</td>
+                    <td>56%</td>
+                </tr>
+                <tr>
+                    <td>00896502715</td>
+                    <td>GAURAV CHAUHAN</td>
+                    <td>96%</td>
+                    <td>47%</td>
+                </tr>
+                <tr>
+                    <td>00996502715</td>
+                    <td>AASHISH GUPTA</td>
+                    <td>96%</td>
+                    <td>85%</td>
+                </tr>
+                
+                    
+                       
+            </tbody>
+        </table>
+    </div>
+    <a href="select_class.html"><button type="button" class="left btn next-pre">BACK</button></a>
+    </div>    
+    <div class="text-right container-fluid footer">
+            © 2018 DYNAMIC ATTENDANCE MANAGER
+    </div> 
+</body>
+</html>
